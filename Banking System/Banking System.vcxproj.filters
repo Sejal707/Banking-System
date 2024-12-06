@@ -26,5 +26,8 @@
     <ClInclude Include="Bank.h">
       <Filter>Header Files</Filter>
     </ClInclude>
+    <ClInclude Include="Banking System.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>

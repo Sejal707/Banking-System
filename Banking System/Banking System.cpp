@@ -1,4 +1,5 @@
 #include"Bank.h";
+#include "Banking System.h"
 using namespace std;
 int main()
 {
@@ -10,17 +11,17 @@ int main()
 	bool exception_occured;
 	Account acc;
 	Bank b;
-	cout << "***Banking System***" << endl;
+	cout << "\033[31m***Banking System***\033[0m" << endl;
 	do {
-		cout << "\n\tSelect one option from below";
-		cout << "\n\t1. Open an Account";
+		cout << "\033[34m\n\tSelect one option from below\033[0m";
+		cout << "\033[33m\n\t1. Open an Account";
 		cout << "\n\t2. Balance Enquiry";
 		cout << "\n\t3. Deposit";
-		cout << "\n\t4. Withdrawal";
+		cout << "\n\t4. Withdrawal";                 
 		cout << "\n\t5. Close an Account";
 		cout << "\n\t6. Show All Accounts";
-		cout << "\n\t7. Quit";
-		cout << "\n\n\tEnter your choice: ";
+		cout << "\n\t7. Quit\033[0m";
+		cout << "\033[32m\n\n\tEnter your choice: ";
 		cin >> choice;
 		cout << "-------------------------------------------------------------------------------------------------------------------------------------------------------" << endl;
 		switch (choice)
